@@ -1,3 +1,19 @@
-\section{section2}
+\section{Modèle complet}
+
+Le modèle proposé par les auteurs pour le UHLPMA est : 
+
+\[ \min \sum_{i \in H}f_iz_i + \sum_{k \in K}\sum_{e \in E_k}F_{ek}x_{ek}\]
+tel que
+\begin{subequations}
+    \begin{align}
+        \sum_{e \in E_k}x_{ek} = 1, \quad &\forall{k\in K}&\\
+        \sum_{e \in E_k:i\in e}x_{ek} \le z_i,\quad &\forall{i \in H}, \forall{k\in K}&\\
+        x_{ek} \ge 0, \quad &\forall{k \in K}, \forall{e \in E_k}&\\
+        z_i\in \{0,1\},\quad &\forall{ i \in H}&
+    \end{align}
+\end{subequations}
+ où $H$ est l'ensemble des localisations possible pour un entrepôt, $K$ est l'ensemble des biens qui doivent être acheminés, $f_i$ est le coût fixe de l'installation de l'entrepôt $i\in H$, $z_i$ est une variable binaire égale à 1 si un entrepôt est situé en $i$, et à 0 sinon, $F_{ek}$ est le coût de transport non orienté pour un arc du graphe $e \in H\times H$ et un bien $k \in K$, et $x_{ek}$ est un variable binaire égale à 1 si le bien $k \in K$ transite par l'arc $e \in H\times H$ et à 0 sinon.
+ 
+ Le coût de transport non orienté pour un arc $e = (i,j) \in H\times H$ est le minimum du coût de transport dans le sens $i \rightarrow j$ et du coût de transport dans le sens $j \rightarrow i$, c'est à dire $F_{ek} = \min \{ F_{ijk};F_{jik}\}$
 
 
