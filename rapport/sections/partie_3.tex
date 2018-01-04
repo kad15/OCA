@@ -1,2 +1,48 @@
-\section{section3}
+\section{Décomposition réalisée}
+
+Problème primal :
+
+\[ \min \sum_{e \in E_k}\sum_{k \in K}F_{ek}x_{ek}\]
+tel que
+\begin{subequations}
+    \begin{align}
+        \sum_{e \in E_k}x_{ek} = 1, \quad &\forall{k\in K}&\\
+        x_{ek} \ge 0, \quad &\forall{k \in K}, \forall{e \in E_k} \label{eq1}&\\
+        \sum_{e \in E_k:i\in e}x_{ek} \le \hat{z}_i,\quad &\forall{i \in H}, \forall{k\in K}\label{eq2}&\\
+    \end{align}
+\end{subequations}
+
+où $\hat{z}$ est un vecteur fixé dans l'ensemble des vecteurs binaires associés aux variables $z_i$.
+
+\smallskip
+
+Problème dual :
+
+\[ \max \sum_{k \in K}\alpha_k - \sum_{i \in H}\sum_{k \in K} \hat{z}_iu_{ik}\]
+tel que
+\begin{subequations}
+    \begin{align}
+        \alpha_k - u_{e_1k} - u_{e_2k} \le F_{ek}, \quad &\forall{k\in K}, \forall{e \in E}, |e| = 2&\\
+        \alpha_k - u_{e_1k} \le F_{ek}, \quad &\forall{k\in K}, \forall{e \in E}, |e| = 1&\\
+        u_ik \ge 0, \quad &\forall{i \in H}, \forall{k \in K}
+    \end{align}
+\end{subequations}
+
+où $\alpha_k, k\in K$ sont les variables associées aux contraintes \ref{eq1} et $u_{ik}, i \in H, k \in K$ les variables associées aux contraintes \ref{eq2}
+
+\smallskip
+
+Problème maître :
+
+\[ \min \sum_{i \in H} f_iz_i + \eta\]
+tel que
+\begin{subequations}
+    \begin{align}
+       \eta \ge \sum_{k \in K}\alpha_k - \sum_{i \in H}\sum_{k \in K} z_iu_{ik}, \quad &\forall{(\alpha,u) \in P_D}&\\
+       \sum_{i \in H} z_i \ge 1 \quad &&\\
+        z_i \in \{0,1\}, \quad & \forall{i \in H}&
+    \end{align}
+\end{subequations}
+	
+
 	
