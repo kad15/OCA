@@ -1,53 +1,48 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/W32TeX)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: rapport.aux
 The style file: alpha.bst
 Database file #1: references.bib
-Warning--empty publisher in popescu
-Warning--empty year in popescu
-Warning--empty publisher in iata.org01
-Warning--empty publisher in theEconomist01
-Warning--empty publisher in iata.org02
-Warning--empty publisher in top50
-You've used 15 entries,
+Warning--empty journal in hln
+You've used 2 entries,
             2543 wiz_defined-function locations,
-            642 strings with 7420 characters,
-and the built_in function-call counts, 4507 in all, are:
-= -- 431
-> -- 153
-< -- 12
-+ -- 45
-- -- 42
-* -- 263
-:= -- 765
-add.period$ -- 56
-call.type$ -- 15
-change.case$ -- 73
-chr.to.int$ -- 14
-cite$ -- 21
-duplicate$ -- 214
-empty$ -- 361
-format.name$ -- 69
-if$ -- 906
-int.to.chr$ -- 2
+            574 strings with 4798 characters,
+and the built_in function-call counts, 968 in all, are:
+= -- 92
+> -- 56
+< -- 0
++ -- 21
+- -- 21
+* -- 84
+:= -- 171
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 15
+chr.to.int$ -- 2
+cite$ -- 3
+duplicate$ -- 28
+empty$ -- 62
+format.name$ -- 23
+if$ -- 188
+int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 18
-newline$ -- 89
-num.names$ -- 45
-pop$ -- 100
+missing$ -- 2
+newline$ -- 13
+num.names$ -- 6
+pop$ -- 11
 preamble$ -- 1
-purify$ -- 93
+purify$ -- 17
 quote$ -- 0
-skip$ -- 159
+skip$ -- 25
 stack$ -- 0
-substring$ -- 161
-swap$ -- 15
-text.length$ -- 12
-text.prefix$ -- 12
+substring$ -- 62
+swap$ -- 1
+text.length$ -- 0
+text.prefix$ -- 0
 top$ -- 0
-type$ -- 100
-warning$ -- 6
-while$ -- 36
-width$ -- 17
-write$ -- 201
-(There were 6 warnings)
+type$ -- 16
+warning$ -- 1
+while$ -- 8
+width$ -- 3
+write$ -- 27
+(There was 1 warning)

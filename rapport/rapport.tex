@@ -134,16 +134,16 @@
 \pagebreak
 
 \tableofcontents
+\pagebreak
 \justify
-\input{intro_conclusion/introduction}
+\input{introduction}
 \input{sections/partie_1}
 \input{sections/partie_2}
 \input{sections/partie_3}
 \input{sections/partie_4}
 \input{sections/partie_5}
 \input{sections/partie_6}
-%\pagebreak
-\input{intro_conclusion/conclusion}
+\input{conclusion}
 
 %\pagebreak
 %\listoffigures
@@ -163,12 +163,13 @@
 % latex mon_fichier.tex
 
 
-% \renewcommand{\bibname}{Toto}
+%\renewcommand{\bibname}{references.bib}
 % ou
-%\renewcommand{\refname}{Bibliographie}
+\renewcommand{\refname}{Bibliographie}
 % dans le préambule.
-%\bibliographystyle{alpha}
-%\bibliography{references}
+\bibliography{references}
+\bibliographystyle{alpha}
+
 %\input{page-de-couverture/page_blanche}
 \input{page-de-couverture/quatrieme-de-couv}
 \end{document}
