@@ -6,9 +6,9 @@
 tel que
 \begin{subequations}
     \begin{align}
-        \sum_{e \in E_k}x_{ek} = 1, \quad &\forall{k\in K}&\\
-        x_{ek} \ge 0, \quad &\forall{k \in K}, \forall{e \in E_k} \label{eq1}&\\
-        \sum_{e \in E_k:i\in e}x_{ek} \le \hat{z}_i,\quad &\forall{i \in H}, \forall{k\in K}\label{eq2}
+        \sum_{e \in E_k}x_{ek} = 1, \quad &\forall{k\in K} \label{2a} &\\
+        x_{ek} \ge 0, \quad &\forall{k \in K}, \forall{e \in E_k} \label{2b}&\\
+        \sum_{e \in E_k:i\in e}x_{ek} \le \hat{z}_i,\quad &\forall{i \in H}, \forall{k\in K}\label{2c}
     \end{align}
 \end{subequations}
 
@@ -16,7 +16,7 @@ où $\hat{z}$ est un vecteur fixé dans l'ensemble des vecteurs binaires associ�
 
 \smallskip
 
-\paragraph{Sous-problème dual : }
+\paragraph{Sous-problème dual : } 
 
 \[ \max \sum_{k \in K}\alpha_k - \sum_{i \in H}\sum_{k \in K} \hat{z}_iu_{ik}\]
 tel que
@@ -28,7 +28,7 @@ tel que
     \end{align}
 \end{subequations}
 
-où $\alpha_k, k\in K$ sont les variables associées aux contraintes \ref{eq1} et $u_{ik}, i \in H, k \in K$ les variables associées aux contraintes \ref{eq2}
+où $\alpha_k, k\in K$ sont les variables associées aux contraintes \ref{2a} et $u_{ik}, i \in H, k \in K$ les variables associées aux contraintes \ref{2c}.
 
 \smallskip
 \paragraph{Problème maître :} En introduisant la variable supplémentaire $\eta$ représentant le coût global de transport, les auteurs sont parvenus au problème maître de Benders suivant : 
