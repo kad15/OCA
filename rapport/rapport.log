@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.22)  6 JAN 2018 15:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.22)  6 JAN 2018 21:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1411,8 +1411,15 @@ LaTeX Font Info:    Try loading font information for U+stmry on input line 6.
 LaTeX Font Warning: Font shape `U/stmry/b/n' undefined
 (Font)              using `U/stmry/m/n' instead on input line 6.
 
-) (./sections/partie_2.tex [2]) (./sections/partie_3.tex)
-(./sections/partie_4.tex) (./sections/partie_5.tex
+) (./sections/partie_2.tex
+Overfull \hbox (0.45859pt too wide) in paragraph at lines 3--4
+\T1/lmss/m/n/12 facility to hub location problems (2004)], les auteurs ont défi
+ni un ensemble $\OML/lmm/m/it/12 E[]$ \T1/lmss/m/n/12 d'arêtes $\OML/lmm/m/it/1
+2 e$ \T1/lmss/m/n/12 d'extrémités
+ []
+
+[2]) (./sections/partie_3.tex [3]) (./sections/partie_4.tex)
+(./sections/partie_5.tex
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
@@ -1425,7 +1432,7 @@ Overfull \hbox (14.06807pt too wide) in paragraph at lines 1--1
 lèmes,
  []
 
-) (./conclusion.tex) [3] [4] (./rapport.bbl)
+) (./conclusion.tex) [4] (./rapport.bbl)
 (./page-de-couverture/quatrieme-de-couv.tex [5])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
 File: images/couv1.jpg Graphic file (type jpg)
@@ -1447,9 +1454,9 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  ) 
 Here is how much of TeX's memory you used:
- 28049 strings out of 494946
- 511670 string characters out of 6180981
- 920135 words of memory out of 5000000
+ 28050 strings out of 494946
+ 511680 string characters out of 6180981
+ 921135 words of memory out of 5000000
  30614 multiletter control sequences out of 15000+600000
  51792 words of font info for 57 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1470,10 +1477,10 @@ usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/lm/lmsso12.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/lm/lmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/lm/lmsy8.pfb>
-Output written on rapport.pdf (7 pages, 905262 bytes).
+Output written on rapport.pdf (7 pages, 909239 bytes).
 PDF statistics:
- 210 PDF objects out of 1000 (max. 8388607)
- 168 compressed objects within 2 object streams
- 42 named destinations out of 1000 (max. 500000)
+ 212 PDF objects out of 1000 (max. 8388607)
+ 170 compressed objects within 2 object streams
+ 43 named destinations out of 1000 (max. 500000)
  178 words of extra memory for PDF output out of 10000 (max. 10000000)
 

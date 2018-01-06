@@ -1,6 +1,7 @@
 \section{Décomposition réalisée}
 
-\paragraph{Sous-problème primal :}
+\paragraph{Sous-problème primal (SP($\hat{z}$)) :}
+Soit $\hat{z}$ un vecteur binaire quelconque de taille card(H) de composantes $\hat{z}_i$ \textbf{fixé}. Le sous-problème primal à optimiser par rapport aux seules variables $x_{ek}$ est : 
 
 \[ \min \sum_{e \in E_k}\sum_{k \in K}F_{ek}x_{ek}\]
 tel que
@@ -12,11 +13,11 @@ tel que
     \end{align}
 \end{subequations}
 
-où $\hat{z}$ est un vecteur fixé dans l'ensemble des vecteurs binaires associés aux variables $z_i$.
+
 
 \smallskip
 
-\paragraph{Sous-problème dual : } 
+\paragraph{Sous-problème dual (SD($\hat{z}$)) : } 
 
 \[ \max \sum_{k \in K}\alpha_k - \sum_{i \in H}\sum_{k \in K} \hat{z}_iu_{ik}\]
 tel que
@@ -30,8 +31,18 @@ tel que
 
 où $\alpha_k, k\in K$ sont les variables associées aux contraintes \ref{2a} et $u_{ik}, i \in H, k \in K$ les variables associées aux contraintes \ref{2c}.
 
-\smallskip
-\paragraph{Problème maître :} En introduisant la variable supplémentaire $\eta$ représentant le coût global de transport, les auteurs sont parvenus au problème maître de Benders suivant : 
+
+Soit D l'ensembles des solutions admissibles de SD et soit $P_D$ l'ensemble des points extrêmes de D. On remarque que D n'est pas modifié si on modifie $\hat{z}$ et puisque $F_{ek} \geq 0$ pour tout $e \in E_k$ and $k \in K$, le vecteur nul est toujours solution du sous-problème dual. En conséquence, par dualité forte, soit le sous-problème primal a une solution et est borné, soit il n'a pas de solution.
+
+Comme pour tout vecteur binaire z tel que $\sum_{i \in H} z_i \ge 1$, les sous-problèmes primal et dual possèdent une solution et sont bornés, la fonction objectif duale s'écrit :
+\[ \max_{(\alpha,u) \in P_D} \sum_{k \in K}\alpha_k - \sum_{i \in H}\sum_{k \in K} \hat{z}_iu_{ik}\]
+
+
+
+
+%\smallskip
+\paragraph{Problème maître (PM) :} En introduisant la variable supplémentaire $\eta$ représentant le coût global de transport, les auteurs aboutissent à un problème mixte
+avec card(H) variables binaires $z_i$ et une variable continue $\eta$ :  
 
 
 \[ \min \sum_{i \in H} f_iz_i + \eta\]
@@ -45,6 +56,6 @@ tel que
 \end{subequations}
 	
 
+Cette reformulation de Benders contient un nombre exponentiel de contraintes. Les auteurs ont donc résolu itérativement le problème maître réduit (PMR) contenant un faible nombre de contraintes (4a) associées aux points extrêmes dans $P_D$. Les contraintes sont ajoutées
+au fur et à mesure en résolvant les sous-problèmes duaux jusqu'à atteindre une solution optimale du problème original.
 
-% - la décomposition réalisée (problème maître, sous-problème)
-	
