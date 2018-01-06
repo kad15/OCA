@@ -4,7 +4,7 @@
 \contentsline {paragraph}{Description du probl\IeC {\`e}me UHLPMA}{2}{section*.4}
 \contentsline {section}{\numberline {2}Mod\IeC {\`e}le complet}{2}{section.2}
 \contentsline {section}{\numberline {3}D\IeC {\'e}composition r\IeC {\'e}alis\IeC {\'e}e}{3}{section.3}
-\contentsline {section}{\numberline {4}la mani\IeC {\`e}re de r\IeC {\'e}soudre ces probl\IeC {\`e}mes}{3}{section.4}
-\contentsline {section}{\numberline {5}les techniques d\IeC {\textquoteright }am\IeC {\'e}lioration mises en \IeC {\oe }uvre}{3}{section.5}
-\contentsline {section}{\numberline {6}les grandes lignes des r\IeC {\'e}sultats obtenus (taille des probl\IeC {\`e}mes, temps de calcul)}{3}{section.6}
-\contentsline {section}{\numberline {7}Conclusion}{3}{section.7}
+\contentsline {section}{\numberline {4}la mani\IeC {\`e}re de r\IeC {\'e}soudre ces probl\IeC {\`e}mes}{4}{section.4}
+\contentsline {section}{\numberline {5}les techniques d\IeC {\textquoteright }am\IeC {\'e}lioration mises en \IeC {\oe }uvre}{4}{section.5}
+\contentsline {section}{\numberline {6}les grandes lignes des r\IeC {\'e}sultats obtenus (taille des probl\IeC {\`e}mes, temps de calcul)}{4}{section.6}
+\contentsline {section}{\numberline {7}Conclusion}{4}{section.7}

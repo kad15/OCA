@@ -1,12 +1,13 @@
 \section{Problématique générale}
 
-Le problème de localisation traité dans l'article est connu sous l'appellation \textit{Uncapacitated Hub Location Problem with Multiple Assignments} (UHLPMA). Il est NP-difficile donc peu tractable pour des grandes instances. L'idée générale est de transporter dans un réseau des entités/marchandises d'une origine O vers une destination D de manière la plus efficace possible. L'objectif est donc de minimiser les coûts fixes et les coûts variables de transport de marchandises en mettant en place des hubs, choisis parmi les noeuds du réseau, et générateurs d'économies d'échelle. 
+Le problème de localisation traité dans l'article est connu sous l'appellation \textit{Uncapacitated Hub Location Problem with Multiple Assignments} (UHLPMA). Il est NP-difficile donc peu tractable pour des grandes instances. L'idée générale est de transporter dans un réseau des entités/marchandises d'une origine O vers une destination D de manière la plus efficace possible. 
 
 
 \paragraph{Description du problème UHLPMA}
-Soient un graphe orienté G(N,A) constitué de N noeuds représentant des centres d'activité tel que des aéroports et de A arcs et H $\subseteq $ N un sous-ensemble de candidats destinés potentiellement à devenir des Hubs. On ne connaît pas à l'avance le nombre de ces hubs, uniquement leurs coûts d'installation. La capacité des hubs et les flux ne sont pas bornés. En outre, le caractère \textit{Multiple Assignement} fait référence au fait que chaque centre Origine/Destination (O/D) peut alimenter/être alimenté par plusieurs hub.
+Soient un graphe orienté G(N,A) constitué de N noeuds représentant des centres d'activité tel que des aéroports et de A arcs et H $\subseteq $ N un sous-ensemble\footnote{L'ensemble de hubs H forme un graphe complet.} de candidats destinés potentiellement à devenir des Hubs. On ne connaît pas à l'avance le nombre de ces hubs, uniquement leurs coûts d'installation. La capacité des hubs et les flux ne sont pas bornés. En outre, le caractère \textit{Multiple Assignement} fait référence au fait que chaque centre Origine/Destination (O/D) peut alimenter/être alimenté par plusieurs hub.
 K représentera l'ensemble des marchandises dont les noeuds d'origine et de destination
-appartiennent à N. $ W_k $ désignera la quantité de marchandise k $\in$ K  à transporter d'une origine o(k) $\in$ N vers une destination d(k) $\in$ N.
+appartiennent à N. $ W_k $ désignera la quantité de marchandise k $\in$ K  à transporter d'une origine o(k) $\in$ N vers une destination d(k) $\in$ N. Les coûts fixes de transformation d'un aéroport i $\in$ H en hub seront notés $ f_i$. Les coûts variables de transport, ou distance entre deux noeuds $i$ et $j$, seront désignés par $d_{ij}$.
+L'objectif est de choisir les aéroports qui vont devenir des hubs et de déterminer les flux des marchandises dans le réseau de manière à minimiser les coûts fixes et les coûts variables de transport de marchandises en mettant en place des hubs, choisis parmi les noeuds du réseau, et générateurs d'économies d'échelle. 
 
 
 
