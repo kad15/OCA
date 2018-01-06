@@ -1,6 +1,6 @@
 \section{Décomposition réalisée}
 
-Problème primal :
+\paragraph{Sous-problème primal :}
 
 \[ \min \sum_{e \in E_k}\sum_{k \in K}F_{ek}x_{ek}\]
 tel que
@@ -16,7 +16,7 @@ où $\hat{z}$ est un vecteur fixé dans l'ensemble des vecteurs binaires associ�
 
 \smallskip
 
-Problème dual :
+\paragraph{Sous-problème dual}:
 
 \[ \max \sum_{k \in K}\alpha_k - \sum_{i \in H}\sum_{k \in K} \hat{z}_iu_{ik}\]
 tel que
@@ -31,8 +31,8 @@ tel que
 où $\alpha_k, k\in K$ sont les variables associées aux contraintes \ref{eq1} et $u_{ik}, i \in H, k \in K$ les variables associées aux contraintes \ref{eq2}
 
 \smallskip
+\paragraph{Problème maître :}
 
-Problème maître :
 
 \[ \min \sum_{i \in H} f_iz_i + \eta\]
 tel que
