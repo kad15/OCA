@@ -8,7 +8,7 @@ tel que
     \begin{align}
         \sum_{e \in E_k}x_{ek} = 1, \quad &\forall{k\in K}&\\
         x_{ek} \ge 0, \quad &\forall{k \in K}, \forall{e \in E_k} \label{eq1}&\\
-        \sum_{e \in E_k:i\in e}x_{ek} \le \hat{z}_i,\quad &\forall{i \in H}, \forall{k\in K}\label{eq2}&\\
+        \sum_{e \in E_k:i\in e}x_{ek} \le \hat{z}_i,\quad &\forall{i \in H}, \forall{k\in K}\label{eq2}
     \end{align}
 \end{subequations}
 
@@ -31,7 +31,7 @@ tel que
 où $\alpha_k, k\in K$ sont les variables associées aux contraintes \ref{eq1} et $u_{ik}, i \in H, k \in K$ les variables associées aux contraintes \ref{eq2}
 
 \smallskip
-\paragraph{Problème maître :}
+\paragraph{Problème maître :} En introduisant la variable supplémentaire $\eta$ représentant le coût global de transport, les auteurs sont parvenus au problème maître de Benders suivant : 
 
 
 \[ \min \sum_{i \in H} f_iz_i + \eta\]
