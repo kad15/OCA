@@ -15,12 +15,14 @@ tel que
 	\end{align}
 \end{subequations}
 
-\paragraph{Coupe Pareto-optimale : }
-Les auteurs ont utilisé ici la méthode de Magnanti et Wong \cite[1981]{mw} pour obtenir des coupes non dominées plus efficaces et ainsi améliorer la convergence.
+\paragraph{Coupe Pareto-optimale : } Les auteurs ont utilisé ici la méthode de Magnanti et Wong \cite[1981]{mw} pour obtenir des coupes non dominées plus efficaces et ainsi améliorer la convergence.
 
 \paragraph{Tests d'élimination : }
 Ici, l'efficacité et la convergence de l'algorithme de décomposition de Benders sont améliorées en réduisant la taille du modèle original. Les auteurs ont utilisés deux tests
-visant à éliminer des n\oe ud de l'ensemble $H$ et dont on sait, compte tenu des informations acquises lors des itérations, qu'elles ne pourront pas apparaître dans la solution optimale à la manière d'un Branch\&Bound.
+visant à éliminer des n\oe ud de l'ensemble $H$ dont on sait, compte tenu des informations acquises lors des itérations, qu'elles ne pourront pas apparaître dans la solution optimale à la manière d'un Branch\&Bound.
 
 
-\paragraph{Heuristique : }
+\paragraph{Heuristique : }L'heuristique proposée par les auteurs est constituée de deux phases : une phase d'\textbf{estimation} et une phase d'\textbf{intensification}. La phase d'estimation construit itérativement un ensemble de solutions admissibles qui servent à calculer un intervalle sur le nombre de hubs ouverts.
+L'heuristique d'intensification génère des solutions admissibles contenant des ensembles de hubs ouverts dont la cardinalité est située dans l'intervalle précédent.
+Les deux phases utilisent une \textbf{procédure de construction commune} qui construit aléatoirement une solution admissible de nombre de hubs ouverts déterminé et l'améliore
+à l'aide d'une procédure de recherche locale. Cette dernière utilise 3 types de solutions voisines : avec ajout d'un hub à la solution courante, avec fermeture d'un hub et enfin avec ouverture d'un hub et fermeture d'un autre.

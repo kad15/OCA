@@ -4,45 +4,45 @@ The top-level auxiliary file: rapport.aux
 The style file: alpha.bst
 Database file #1: references.bib
 Warning--empty journal in hln
-You've used 3 entries,
+You've used 5 entries,
             2543 wiz_defined-function locations,
-            580 strings with 4930 characters,
-and the built_in function-call counts, 1372 in all, are:
-= -- 133
-> -- 75
-< -- 0
-+ -- 27
-- -- 27
-* -- 116
-:= -- 238
-add.period$ -- 9
-call.type$ -- 3
-change.case$ -- 21
-chr.to.int$ -- 3
-cite$ -- 4
-duplicate$ -- 42
-empty$ -- 92
-format.name$ -- 30
-if$ -- 271
-int.to.chr$ -- 1
+            589 strings with 5134 characters,
+and the built_in function-call counts, 1950 in all, are:
+= -- 189
+> -- 91
+< -- 4
++ -- 32
+- -- 31
+* -- 152
+:= -- 334
+add.period$ -- 17
+call.type$ -- 5
+change.case$ -- 29
+chr.to.int$ -- 4
+cite$ -- 6
+duplicate$ -- 74
+empty$ -- 142
+format.name$ -- 38
+if$ -- 393
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 3
-newline$ -- 18
-num.names$ -- 9
-pop$ -- 14
+missing$ -- 7
+newline$ -- 28
+num.names$ -- 15
+pop$ -- 28
 preamble$ -- 1
-purify$ -- 24
+purify$ -- 36
 quote$ -- 0
-skip$ -- 38
+skip$ -- 55
 stack$ -- 0
-substring$ -- 90
-swap$ -- 2
-text.length$ -- 0
-text.prefix$ -- 0
+substring$ -- 104
+swap$ -- 6
+text.length$ -- 4
+text.prefix$ -- 2
 top$ -- 0
-type$ -- 24
+type$ -- 32
 warning$ -- 1
-while$ -- 12
-width$ -- 4
-write$ -- 40
+while$ -- 16
+width$ -- 6
+write$ -- 66
 (There was 1 warning)

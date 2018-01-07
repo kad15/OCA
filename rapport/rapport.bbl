@@ -5,6 +5,18 @@ Ivan Contreras, Jean-François Cordeau, and Gilbert Laporte.
 \newblock Benders decomposition for large-scale uncapacitated hub location.
 \newblock {\em Operations Research}, 59(6):1477--1490, 2011.
 
+\bibitem[Min83a]{minoux1983programmation1}
+M.~Minoux.
+\newblock {\em Programmation math{\'e}matique: th{\'e}orie et algorithmes}.
+\newblock Number vol.~1 in Collection technique et scientifique des
+  t{\'e}l{\'e}communications. Dunod, 1983.
+
+\bibitem[Min83b]{minoux1983programmation2}
+M.~Minoux.
+\newblock {\em Programmation math{\'e}matique: th{\'e}orie et algorithmes}.
+\newblock Number vol.~2 in Collection technique et scientifique des
+  t{\'e}l{\'e}communications. Dunod, 1983.
+
 \bibitem[MW81]{mw}
 T.~L. Magnanti and R.~T. Wong.
 \newblock Accelerating benders decomposition: Algorithmic enhancement and model
