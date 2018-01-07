@@ -6,9 +6,10 @@
 \contentsline {section}{\numberline {3}D\IeC {\'e}composition r\IeC {\'e}alis\IeC {\'e}e}{3}{section.3}
 \contentsline {paragraph}{Sous-probl\IeC {\`e}me primal (SP($\mathaccentV {hat}05E{z}$)) :}{3}{section*.5}
 \contentsline {paragraph}{Sous-probl\IeC {\`e}me dual (SD($\mathaccentV {hat}05E{z}$)) : }{3}{section*.6}
-\contentsline {paragraph}{Probl\IeC {\`e}me ma\IeC {\^\i }tre (PM) :}{4}{section*.7}
-\contentsline {section}{\numberline {4}la mani\IeC {\`e}re de r\IeC {\'e}soudre ces probl\IeC {\`e}mes}{4}{section.4}
-\contentsline {paragraph}{R\IeC {\'e}solution de sous-probl\IeC {\`e}me :}{4}{section*.8}
-\contentsline {section}{\numberline {5}les techniques d\IeC {\textquoteright }am\IeC {\'e}lioration mises en \IeC {\oe }uvre}{4}{section.5}
-\contentsline {section}{\numberline {6}les grandes lignes des r\IeC {\'e}sultats obtenus (taille des probl\IeC {\`e}mes, temps de calcul)}{4}{section.6}
-\contentsline {section}{\numberline {7}Conclusion}{4}{section.7}
+\contentsline {paragraph}{Probl\IeC {\`e}me ma\IeC {\^\i }tre de Benders (PM) :}{4}{section*.7}
+\contentsline {section}{\numberline {4}R\IeC {\'e}solution des probl\IeC {\`e}mes}{4}{section.4}
+\contentsline {paragraph}{R\IeC {\'e}solution du probl\IeC {\`e}me (P) :}{4}{section*.8}
+\contentsline {paragraph}{R\IeC {\'e}solution de sous-probl\IeC {\`e}me Dual :}{5}{section*.9}
+\contentsline {section}{\numberline {5}les techniques d\IeC {\textquoteright }am\IeC {\'e}lioration mises en \IeC {\oe }uvre}{5}{section.5}
+\contentsline {section}{\numberline {6}les grandes lignes des r\IeC {\'e}sultats obtenus (taille des probl\IeC {\`e}mes, temps de calcul)}{5}{section.6}
+\contentsline {section}{\numberline {7}Conclusion}{5}{section.7}

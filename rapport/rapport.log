@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.22)  6 JAN 2018 21:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.22)  7 JAN 2018 09:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1418,8 +1418,30 @@ ni un ensemble $\OML/lmm/m/it/12 E[]$ \T1/lmss/m/n/12 d'arêtes $\OML/lmm/m/it/1
 2 e$ \T1/lmss/m/n/12 d'extrémités
  []
 
-[2]) (./sections/partie_3.tex [3]) (./sections/partie_4.tex)
-(./sections/partie_5.tex
+[2]) (./sections/partie_3.tex [3]) (./sections/partie_4.tex
+LaTeX Font Info:    Try loading font information for OMS+lmss on input line 6.
+LaTeX Font Info:    No file OMSlmss.fd. on input line 6.
+
+
+LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 6.
+
+<images/alg1.png, id=129, 942.52126pt x 1013.7875pt>
+File: images/alg1.png Graphic file (type png)
+ <use images/alg1.png>
+Package pdftex.def Info: images/alg1.png used on input line 18.
+(pdftex.def)             Requested size: 282.75856pt x 304.1386pt.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 19.
+
+(/usr/share/texlive/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+
+LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <12> not available
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 19.
+
+[4]) (./sections/partie_5.tex
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
@@ -1432,21 +1454,21 @@ Overfull \hbox (14.06807pt too wide) in paragraph at lines 1--1
 lèmes,
  []
 
-) (./conclusion.tex) [4] (./rapport.bbl)
-(./page-de-couverture/quatrieme-de-couv.tex [5])
+) (./conclusion.tex) [5 <./images/alg1.png>] (./rapport.bbl)
+(./page-de-couverture/quatrieme-de-couv.tex [6])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
 File: images/couv1.jpg Graphic file (type jpg)
  <use images/couv1.jpg>
 Package pdftex.def Info: images/couv1.jpg used on input line 175.
 (pdftex.def)             Requested size: 866.37093pt x 844.9816pt.
 
-[6]
+[7]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
  (./rapport.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 0BE79C0F9CEAAE0E090A54A97E2E3C17;568.
+(rerunfilecheck)             Checksum: 526B0079980DD40F79079DCD5B2F7907;553.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1454,33 +1476,34 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  ) 
 Here is how much of TeX's memory you used:
- 28050 strings out of 494946
- 511680 string characters out of 6180981
+ 28105 strings out of 494946
+ 512752 string characters out of 6180981
  921135 words of memory out of 5000000
- 30614 multiletter control sequences out of 15000+600000
- 51792 words of font info for 57 fonts, out of 8000000 for 9000
+ 30659 multiletter control sequences out of 15000+600000
+ 54844 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  63i,12n,82p,805b,616s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texli
-ve/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texlive/texmf-dist/fonts
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texli
+ve/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texlive/texmf-dist/fonts
 /enc/dvips/lm/lm-mathit.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/l
 m-mathsy.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}</
-usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/lm/lmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/lm/lmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmr12.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/lm/lmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-lm/lmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmss8.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/lm/lmsso12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/lm/lmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/lm/lmsy8.pfb>
-Output written on rapport.pdf (7 pages, 909239 bytes).
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/lm/lmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm
+/lmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/lm/lmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lm
+ss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/lm/lmsso12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/lm/lmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
+Output written on rapport.pdf (8 pages, 1038290 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 170 compressed objects within 2 object streams
- 43 named destinations out of 1000 (max. 500000)
- 178 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 228 PDF objects out of 1000 (max. 8388607)
+ 182 compressed objects within 2 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 183 words of extra memory for PDF output out of 10000 (max. 10000000)
 

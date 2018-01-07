@@ -1,6 +1,6 @@
 \section{Modèle complet}
 
-En partant du modèle de Hamacher et al. \cite[Adapting polyhedral properties from facility to hub location problems (2004)]{hln}, les auteurs ont défini un ensemble $E_k$ d'arêtes $e$ d'extrémités identiques ou différentes, extrémités qui sont candidates à devenir des hub pour chaque bien k. $E_k$ réduit le choix des hubs potentiels contenu dans H d'où le modèle amélioré suivant qui exploite les propriétés spécifiques des solutions optimales du problème UHLPMA : 
+En partant du modèle de Hamacher et al. \cite[Adapting polyhedral properties from facility to hub location problems (2004)]{hln}, les auteurs ont défini un ensemble $E_k$ d'arêtes $e$ d'extrémités identiques ou différentes. Ces extrémités sont candidates à devenir des hub pour chaque bien k. L'amélioration réside dans le fait que $E_k$ réduit le choix des hubs potentiels contenus dans H d'où le problème (P) ci-dessous qui exploite les propriétés spécifiques des solutions optimales du problème UHLPMA. C'est ce problème original (P) que les auteurs résolvent en partitionnant les variables (décomposition de Benders) : 
 
 \[ \min \sum_{i \in H}f_iz_i + \sum_{k \in K}\sum_{e \in E_k}F_{ek}x_{ek}\]
 tel que

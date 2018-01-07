@@ -3,7 +3,7 @@
 \paragraph{Sous-problème primal (SP($\hat{z}$)) :}
 Soit $\hat{z}$ un vecteur binaire quelconque de taille card(H) de composantes $\hat{z}_i$ \textbf{fixé}. Le sous-problème primal à optimiser par rapport aux seules variables $x_{ek}$ est : 
 
-\[ \min \sum_{e \in E_k}\sum_{k \in K}F_{ek}x_{ek}\]
+\[v(\hat{z}) =  \min \sum_{e \in E_k}\sum_{k \in K}F_{ek}x_{ek}\]
 tel que
 \begin{subequations}
     \begin{align}
@@ -37,12 +37,13 @@ Soit D l'ensembles des solutions admissibles de SD et soit $P_D$ l'ensemble des 
 Comme pour tout vecteur binaire z tel que $\sum_{i \in H} z_i \ge 1$, les sous-problèmes primal et dual possèdent une solution et sont bornés, la fonction objectif duale s'écrit :
 \[ \max_{(\alpha,u) \in P_D} \sum_{k \in K}\alpha_k - \sum_{i \in H}\sum_{k \in K} \hat{z}_iu_{ik}\]
 
+De plus, les coupes de faisabilité associées au rayons extrêmes de l'ensemble D ne sont pas nécessaires du fait de la contrainte $\sum_{i \in H} z_i \ge 1$. 
+
 
 
 
 %\smallskip
-\paragraph{Problème maître (PM) :} En introduisant la variable supplémentaire $\eta$ représentant le coût global de transport, les auteurs aboutissent à un problème mixte
-avec card(H) variables binaires $z_i$ et une variable continue $\eta$ :  
+\paragraph{Problème maître de Benders (PM) :} En introduisant la variable supplémentaire $\eta$ représentant le coût global de transport, les auteurs aboutissent à un problème mixte avec card(H) variables binaires $z_i$ et une variable continue $\eta$. Ce :  
 
 
 \[ \min \sum_{i \in H} f_iz_i + \eta\]
@@ -56,6 +57,5 @@ tel que
 \end{subequations}
 	
 
-Cette reformulation de Benders contient un nombre exponentiel de contraintes. Les auteurs ont donc résolu itérativement le problème maître réduit (PMR) contenant un faible nombre de contraintes (4a) associées aux points extrêmes dans $P_D$. Les contraintes sont ajoutées
-au fur et à mesure en résolvant les sous-problèmes duaux jusqu'à atteindre une solution optimale du problème original.
+Les contraintes (4a) représentent les coupes d'optimalité.
 
