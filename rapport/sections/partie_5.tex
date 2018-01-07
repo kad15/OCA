@@ -1,3 +1,26 @@
-\section{les techniques d’amélioration mises en œuvre}
+\section{Techniques d’amélioration de l'algorithme}
 
 
+\paragraph{Reformulation multicoupe : }
+Cette technique décompose le problème maître en $|H|$ sous-problèmes indépendants, un pour chaque n\oe ud. Seules $|H|$ coupes d'optimalité sont générées à partir de chaque polyèdre dual associé au sous-problème $j$ contre $|K|$ si la décomposition complète des sous-problèmes duaux avait été utilisée. Auquel cas, les $|K|$ coupes par itération auraient été contre productives en terme de temps de calcul.
+
+
+\[ \min \sum_{i \in H} f_iz_i + \sum_{i \in H} \eta_i  \]
+tel que
+\begin{subequations}
+	\begin{align}
+	\eta_j \ge \sum_{k \in K_j}\alpha_k - \sum_{i \in H}\sum_{k \in K_j} z_iu_{ik} \quad &\forall j \in H, \forall{(\alpha,u) \in P_{D^j}}&\\
+	\sum_{i \in H} z_i \ge 1 \quad &&\\
+	z_i \in \{0,1\}, \quad & \forall{i \in H}&
+	\end{align}
+\end{subequations}
+
+\paragraph{Coupe Pareto-optimale : }
+Les auteurs ont utilisé ici la méthode de Magnanti et Wong \cite[1981]{mw} pour obtenir des coupes non dominées plus efficaces et ainsi améliorer la convergence.
+
+\paragraph{Tests d'élimination : }
+Ici, l'efficacité et la convergence de l'algorithme de décomposition de Benders sont améliorées en réduisant la taille du modèle original. Les auteurs ont utilisés deux tests
+visant à éliminer des n\oe ud de l'ensemble $H$ et dont on sait, compte tenu des informations acquises lors des itérations, qu'elles ne pourront pas apparaître dans la solution optimale à la manière d'un Branch\&Bound.
+
+
+\paragraph{Heuristique : }

@@ -5,6 +5,12 @@ Ivan Contreras, Jean-François Cordeau, and Gilbert Laporte.
 \newblock Benders decomposition for large-scale uncapacitated hub location.
 \newblock {\em Operations Research}, 59(6):1477--1490, 2011.
 
+\bibitem[MW81]{mw}
+T.~L. Magnanti and R.~T. Wong.
+\newblock Accelerating benders decomposition: Algorithmic enhancement and model
+  selection criteria.
+\newblock {\em Operations Research}, 29(3):464--484, 1981.
+
 \bibitem[WHLNS04]{hln}
 Horst W.~Hamacher, Martine Labbé, Stefan Nickel, and Tim Sonneborn.
 \newblock Adapting polyhedral properties from facility to hub location
